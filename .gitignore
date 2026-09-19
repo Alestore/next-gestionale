@@ -1,0 +1,24 @@
+# Database SQLite locale e file di log WAL
+*.db
+*.db-wal
+*.db-shm
+officina.db
+
+# File di sessione utente e configurazioni locali
+session.json
+config.json
+
+# Cartelle dati dei clienti e avatar
+archivio_veicoli/
+avatars/
+
+# File di compilazione PyInstaller / Python
+dist/
+build/
+*.spec
+__pycache__/
+*.pyc
+
+# File di sistema
+.DS_Store
+Thumbs.db
